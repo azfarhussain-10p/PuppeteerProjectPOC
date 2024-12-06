@@ -1,0 +1,20 @@
+{
+	"name": "jest-puppeteer-project",
+	"version": "1.0.0",
+	"description": "Test Framework using Jest and Puppeteer",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --forceExit --detectOpenHandles"
+	},
+	"author": "Azfar",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/core": "^7.15.0",
+		"@babel/preset-env": "^7.15.0",
+		"babel-jest": "^27.0.6",
+		"jest": "^27.0.6",
+		"jest-puppeteer": "^5.0.4",
+		"prettier": "^2.3.2",
+		"puppeteer": "^9.1.1"
+	}
+}
