@@ -6,13 +6,6 @@ export default class homePage extends basePage {
 		await page.waitForSelector('#nav')
 	}
 
-	async isNavbarDisplayed() {
-		await page.waitForSelector('#page-nav')
-		await page.waitForSelector('#homeMenu')
-		await page.waitForSelector('#onlineBankingMenu')
-		await page.waitForSelector('#feedback')
-	}
-
 	async clickHomePageLink() {
 		await page.click('#homeMenu')
 	}
@@ -21,7 +14,4 @@ export default class homePage extends basePage {
 		await page.click('#onlineBankingMenu')
 	}
 
-	async clickFeedbackLink() {
-		await page.click('#feedback')
-	}
 }
